@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "buildcss": "TAILWIND_MODE=watch postcss src/css/tailwindcss -o src/css/main.css -w"
+    "buildcss": "TAILWIND_MODE=watch postcss src/css/tailwind.css -o src/css/main.css -w"
   },
   "eslintConfig": {
     "extends": [
