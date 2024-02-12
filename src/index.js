@@ -10,7 +10,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <StrictMode>
     <BrowserRouter>
-      <App />
+      <div data-theme="bumblebee">
+        <App />
+      </div>
     </BrowserRouter>
   </StrictMode>
 );
